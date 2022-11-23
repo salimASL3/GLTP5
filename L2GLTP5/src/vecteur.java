@@ -13,7 +13,7 @@ public class vecteur {
 	public double norme() {
 		double norme = 0.0;
 		// modif dev/2
-	    //norme = Math.sqrt(this.x * this.x + this.y * this.y);
+	    norme = Math.sqrt(this.x * this.x + this.y * this.y);
 		return norme;
 	}
 	
