@@ -19,8 +19,8 @@ public class appli {
 
 		// master/1
 		int res = 0;
-		// res =  v1.getx() * v2.getx();
-		// res += v1.gety() * v2.gety();
+		res =  v1.getx() * v2.getx();
+		res += v1.gety() * v2.gety();
 		System.out.println("v1.v2 = " + res);
 	}
 
