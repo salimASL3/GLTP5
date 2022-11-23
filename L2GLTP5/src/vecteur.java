@@ -6,8 +6,8 @@ public class vecteur {
 	
 	public vecteur(int i, int j) {
 		// modif dev/1
-		//this.x = i;
-		//this.y = j;
+		this.x = i;
+		this.y = j;
 	}
 	
 	public double norme() {
