@@ -19,13 +19,10 @@ public class testVecteur {
 		//fail("Not yet implemented");
 		boolean test = false;
 		// test/2
-<<<<<<< HEAD
 		// vecteur v = new vecteur(1, 1);
 		// test = ( ( Math.sqrt(2) - v.norme() ) < 1E-10 );
-=======
 		vecteur v = new vecteur(1, 1);
 		test = ( ( Math.sqrt(2) - v.norme() ) < 1E-10 );
->>>>>>> refs/heads/feat2-validation
 		assertTrue( test );
 	}
 
