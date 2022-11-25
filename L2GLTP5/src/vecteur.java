@@ -21,8 +21,8 @@ public class vecteur {
 		int xout = 0;
 		int yout = 0;
 		// modif dev/3
-		//xout = this.x + vin.x;
-		//yout = this.y + vin.y;
+		xout = this.x + vin.x;
+		yout = this.y + vin.y;
 		vecteur vout = new vecteur(xout, yout);
 		return vout;
 	}
